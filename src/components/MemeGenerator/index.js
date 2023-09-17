@@ -164,8 +164,8 @@ class MemeGenerator extends Component {
         </FormContainer>
 
         <MemeContainer as="div" bgImage={imageUrl} data-testid="meme">
-          <CustomText fontsize={fontSize}>{topText}</CustomText>
-          <CustomText fontsize={fontSize}>{bottomText}</CustomText>
+          <CustomText fontSize={fontSize}>{topText}</CustomText>
+          <CustomText fontSize={fontSize}>{bottomText}</CustomText>
         </MemeContainer>
       </MainContainer>
     )
